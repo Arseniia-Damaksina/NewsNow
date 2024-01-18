@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+
+.paymentsContainer {
+  /* background-color: #f4f6fc; */
+  background-color: #e6e6e6;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  margin-bottom: 40px;
+}
+
+.paymentsH1 {
+  margin: 30px 0 30px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.paymentsP {
+  width: 60%;
+  margin: 0 0 30px 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+.plansContainer {
+  display: flex;
+  width: 90%;
+  height: 70%;
+  margin: 10px;
+}
+
+.plans {
+  display: flex;
+  width: 70%;
+  height: 100%;
+}
+
+.plansSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.3%;
+  height: 100%;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin-right: 60px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.planH2 {
+  padding: 30px 0 30px 0;
+  margin: 0;
+  width: 100%;
+  font-size: 30px;
+  border-radius: 11px 11px 0 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.plansP {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.description {
+  margin: 0 20px 15px 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #9a9a9a;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 15px 20px 30px 20px;
+}
+
+.selectedPlan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selectedPlan h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.selectedPlan p {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+  .paymentsContainer {
+    /* background-color: #f4f6fc; */
+    background-color: #e6e6e6;
+    width: 100vw;
+    min-height: 100%;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+  .paymentsContainer {
+    /* background-color: #f4f6fc; */
+    background-color: #e6e6e6;
+    width: 100vw;
+    min-height: 100%;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    min-height: 90%;
+    margin-bottom: 40px;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+  }
+
+  .plansSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 899px) {
+  .paymentsContainer {
+    /* background-color: #f4f6fc; */
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .plansContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 70%;
+    margin: 10px;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .plansSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+}

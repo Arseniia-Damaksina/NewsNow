@@ -1,0 +1,51 @@
+.container {
+  margin: 0 0 20px 0;
+  width: 90%;
+  font-size: 22px;
+  border-radius: 4px;
+  display: flex;
+}
+
+.commentContent {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.commentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px 0 10px;
+}
+
+.avatar {
+  border-radius: 4px 0 0 4px;
+  width: 6%;
+  height: 80px;
+  margin-right: 10px;
+  z-index: 1;
+}
+
+.user {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.timeStamp {
+  color: gray;
+  font-size: 18px;
+  margin: 7px;
+}
+
+.comment {
+  word-wrap: break-word;
+  margin: 0 10px 10px 10px;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 599px) {
+  .avatar {
+    width: 16%;
+  }
+}
